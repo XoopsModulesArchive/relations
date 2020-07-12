@@ -1,0 +1,23 @@
+<{if $xoops_isadmin == 1}>
+	<{$block.UserAdminBlock}>
+<{else}>
+	<{$block.UserBlock}>
+<{/if}>
+
+<!--
+<{php}>
+    echo $REQUEST_URI;
+<{/php}>
+<br>
+<{$smarty.now|date_format:"%m-%d-%Y"}>
+<br>
+<{$smarty.request.username}>
+<br>
+<{$smarty.template}>
+<br>
+<{debug}>
+<br>
+<{$news.title}>
+<br>
+<{$xoops_requesturi}>
+-->
